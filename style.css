@@ -33,15 +33,20 @@ html, body {
     height: 100%;
 
     font-family: var(--font-sec);
-    font-size: 1.05rem;
+    font-size: 100%;
 
     background: var(--backA);
     color: var(--colA);
 }
 header {
     font-family: var(--font-pri);
-    font-size: 1.7rem;
+    font-size: 150%;
 }
+
+h1, h2, h3, h4, h5 { font-family: var(--font-pri); }
+h1 { font-size: 130%; margin-bottom: 5px; }
+h2 { font-size: 110%; margin-bottom: 5px; }
+p { font-size: 100%; }
 
 nav {
     position: -webkit-sticky;
@@ -149,6 +154,8 @@ article button {
     outline: none;
     padding-top: 0.5em;
     padding-bottom: 0.5em;
+    
+    font-family: var(--font-pri);
 }
 article button:hover {
     color: var(--colB);
