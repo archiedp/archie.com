@@ -43,7 +43,6 @@ header {
     font-size: 150%;
 }
 
-h1, h2, h3, h4, h5 { font-family: var(--font-pri); }
 h1 { font-size: 130%; margin-bottom: 5px; }
 h2 { font-size: 110%; margin-bottom: 5px; }
 p { font-size: 100%; }
