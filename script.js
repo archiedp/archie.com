@@ -27,6 +27,4 @@ for (let article of document.getElementsByTagName("article")) {
     article.appendChild(btn_less);
     article.appendChild(inner);
     article.appendChild(btn_more);
-
-    console.log(article.parentNode);
 }
