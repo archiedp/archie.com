@@ -43,8 +43,8 @@ header {
     font-size: 150%;
 }
 
-h1 { font-size: 130%; margin-bottom: 5px; }
-h2 { font-size: 110%; margin-bottom: 5px; }
+h1 { font-size: 130%; }
+h2 { font-size: 115%; }
 p { font-size: 100%; }
 
 nav {
@@ -154,7 +154,7 @@ article button {
     padding-top: 0.5em;
     padding-bottom: 0.5em;
     
-    font-family: var(--font-pri);
+    font-family: var(--font-sec);
 }
 article button:hover {
     color: var(--colB);
